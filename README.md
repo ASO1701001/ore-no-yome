@@ -29,11 +29,11 @@
 
 ### 前提環境
 #### Androidアプリ
-* Android7.0 ~ 9.0
+* Android 7.0 ~ 9.0
 * Kotlin
 
 #### APIサーバー
-* PHP7.3
+* PHP 7.3
 * MariaDB 10.3
 
 ### ライブラリー
