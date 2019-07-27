@@ -1,0 +1,40 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionMenuTextColor">#000000</item>
+    </style>
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:background">@color/colorWhite</item>-->
+    </style>
+    <style name="AppThemeSimpleActionBar" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorPink</item>
+        <!--<item name="android:background">@color/colorWhite</item>-->
+    </style>
+    <!--<style name="MyAppTheme" parent="Theme.AppCompat.Light">-->
+    <!--&lt;!&ndash;<item name="colorPrimary">#00FFFFFF</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item name="colorPrimaryDark">@color/colorWhite</item>&ndash;&gt;-->
+    <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--<item name="android:background">@color/colorWhite</item>-->
+    <!--</style>-->
+
+    <!--<style name="OriginalAppTheme" parent="Theme.AppCompat.Light">-->
+    <!--<item name="colorPrimary">@color/colorWhite</item>-->
+    <!--<item name="colorPrimaryDark">@color/colorWhite</item>-->
+    <!--<item name="colorAccent">@color/colorPink</item>-->
+    <!--</style>-->
+    <!--<style name="AppTheme.NoActionBar">-->
+    <!--<item name="windowActionBar">false</item>-->
+    <!--<item name="windowNoTitle">true</item>-->
+    <!--<item name="android:background">@color/colorWhite</item>-->
+    <!--</style>-->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

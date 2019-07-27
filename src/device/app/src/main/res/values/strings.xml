@@ -1,0 +1,111 @@
+<resources>
+    <!-- AppName -->
+    <string name="app_name">俺の嫁がこんなにも可愛い</string>
+    <!-- ApiServerUrl -->
+    <!--<string name="api_server_url">https://aso.vxx0.com/ore-no-yome/api/</string>-->
+    <!--<string name="api_server_url">https://aso.vxx0.com/ore-no-yome/api/</string>-->
+    <!-- Title -->
+    <string name="title_logo_string">俺の嫁がこんなにも可愛い</string>
+    <string name="title_sign_up_string">アカウントを作成</string>
+    <string name="title_sign_in_string">アカウントを持っていますか？ログインします</string>
+    <string name="title_auto_sign_in">自動ログインしています…</string>
+    <!-- Account -->
+    <!-- SignUp -->
+    <string name="sign_up_string_title">サインアップ</string>
+    <string name="sign_up_string_user_id">ユーザーID</string>
+    <string name="sign_up_string_user_name">ユーザー名</string>
+    <string name="sign_up_string_email">メールアドレス</string>
+    <string name="sign_up_string_password">パスワード</string>
+    <string name="sign_up_string_button">アカウント作成</string>
+    <!-- SignIn -->
+    <string name="sign_in_string_title">サインイン</string>
+    <string name="sign_in_string_name">ユーザーID・メールアドレス</string>
+    <string name="sign_in_string_password">パスワード</string>
+    <string name="sign_in_string_button">サインイン</string>
+    <!-- Main -->
+    <string name="app_search_keyword_input">投稿を検索</string>
+    <string name="app_drawer_menu_user_id">ユーザーID</string>
+    <string name="app_drawer_menu_user_name">ユーザー名</string>
+    <!-- DrawerNavigationMenu -->
+    <string name="drawer_menu_home">ホーム</string>
+    <string name="drawer_menu_profile">プロフィール</string>
+    <string name="drawer_menu_favorite">お気に入り</string>
+    <string name="drawer_menu_notice">通知</string>
+    <string name="drawer_menu_setting">設定</string>
+    <string name="drawer_menu_help">ヘルプ</string>
+    <string name="drawer_menu_sign_out">ログアウト</string>
+    <!-- Menu -->
+    <string name="toolbar_menu_search">検索</string>
+    <!--<string name="hd_menu_notice">ログアウト</string>-->
+    <!-- PostAdd -->
+    <string name="app_post_add_input">どこが好きなの？</string>
+    <string name="app_post_add_chara_select">キャラクターを選択してください</string>
+    <string name="app_post_add_button">投稿</string>
+    <string name="app_post_add_loading_text">送信中…</string>
+    <!-- PostDetail -->
+    <string name="app_post_detail_loading_text">読み込み中…</string>
+    <string name="app_post_detail_user_icon">ユーザーアイコン</string>
+    <string name="app_post_detail_user_name">ユーザー名</string>
+    <string name="app_post_detail_user_id">ユーザーID</string>
+    <string name="app_post_detail_content">投稿内容</string>
+    <string name="app_post_detail_chara_name">キャラ名</string>
+    <string name="app_post_detail_anime_title">アニメタイトル</string>
+    <string name="app_post_detail_timestamp">投稿時間</string>
+    <string name="app_post_detail_image01">投稿画像01</string>
+    <string name="app_post_detail_image02">投稿画像02</string>
+    <!-- PostImage -->
+    <string name="app_post_image_description">投稿画像</string>
+    <!-- ProfileEdit -->
+    <string name="app_user_profile_edit_icon">ユーザーアイコン</string>
+    <string name="app_user_profile_edit_profile">プロフィール</string>
+    <string name="app_user_profile_edit_user_id">ユーザーID</string>
+    <string name="app_user_profile_edit_user_name">ユーザー名</string>
+    <string name="app_user_profile_edit_email">メールアドレス</string>
+    <string name="app_user_profile_edit_password">パスワード</string>
+
+    <!-- Layout -->
+    <string name="layout_post_user_icon">ユーザーアイコン</string>
+    <string name="layout_post_user_name">ユーザー名</string>
+    <string name="layout_post_user_id">ユーザーID</string>
+    <string name="layout_post_content">投稿内容</string>
+    <string name="layout_post_image01">投稿画像01</string>
+    <string name="layout_post_image02">投稿画像02</string>
+    <string name="layout_chara_list_chara_name">キャラ名</string>
+    <string name="layout_chara_list_anime_title">アニメタイトル</string>
+    <string name="layout_notice_icon">ユーザーアイコン</string>
+    <string name="layout_notice_user_name">ユーザー名</string>
+    <string name="layout_notice_content">投稿内容</string>
+
+    <!-- Fragment -->
+    <string name="app_main_profile_user_id">ユーザーID</string>
+    <string name="app_main_profile_user_name">ユーザー名</string>
+    <string name="app_main_profile_icon">ユーザーアイコン</string>
+    <string name="app_main_profile_profile">プロフィール</string>
+    <string name="app_main_profile_edit_button">プロフィールを編集</string>
+
+    <!-- AutoCreation -->
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--<string name="nav_header_title">Android Studio</string>-->
+    <!--<string name="nav_header_subtitle">android.studio@android.com</string>-->
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_post_add">投稿追加</string>
+    <string name="title_activity_main_post_detail">投稿詳細</string>
+    <string name="title_activity_main_thread">スレッド</string>
+    <string name="title_activity_main_thread_add">スレッドに投稿</string>
+    <string name="title_activity_main_post_image">投稿画像</string>
+    <string name="title_activity_main_favorite">MainFavoriteActivity</string>
+    <string name="title_activity_user_edit">プロフィールを編集</string>
+    <string name="title_activity_main_profile_edit">MainProfileEditActivity</string>
+
+    <!--<string name="hello_blank_fragment">Hello blank fragment</string>-->
+
+    <!--<string name="menu_home">Home</string>-->
+    <!--<string name="menu_gallery">Gallery</string>-->
+    <!--<string name="menu_slideshow">Slideshow</string>-->
+    <!--<string name="menu_tools">Tools</string>-->
+    <!--<string name="menu_share">Share</string>-->
+    <!--<string name="menu_send">Send</string>-->
+</resources>

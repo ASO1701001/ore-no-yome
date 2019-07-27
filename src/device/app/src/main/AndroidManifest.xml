@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.vxx0.aso.ore_no_yome">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:ignore="GoogleAppIndexingWarning">
+        <activity
+                android:name=".MainProfileEditActivity"
+                android:label="@string/title_activity_main_profile_edit"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".MainFavoriteActivity"
+                android:label="@string/title_activity_main_favorite"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".MainPostImageActivity"
+                android:label="@string/title_activity_main_post_image"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".MainThreadAddActivity"
+                android:label="@string/title_activity_main_thread_add"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".MainThreadActivity"
+                android:label="@string/title_activity_main_thread"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".MainPostDetailActivity"
+                android:label="@string/title_activity_main_post_detail"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".MainPostAddActivity"
+                android:label="@string/title_activity_main_post_add"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:label="@string/title_activity_main"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".SignInActivity"
+                android:theme="@style/AppThemeSimpleActionBar"/>
+        <activity
+                android:name=".SignUpActivity"
+                android:theme="@style/AppThemeSimpleActionBar"/>
+        <activity
+                android:name=".TitleActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppThemeNoActionBar">
+
+            <!-- Theme.AppCompat.Light.NoActionBar -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
